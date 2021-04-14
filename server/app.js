@@ -19,7 +19,7 @@ const app = express();
 // cors middleware
 app.use(
     cors({
-        origin: ['http://localhost:3000', 'mernauthentication.netlify.app'],
+        origin: ['http://localhost:3000', 'https://mernauthentication.netlify.app'],
         methods: ['GET', 'POST', 'PUT'],
         credentials: true,
         allowedHeaders: ['Content-Type']
